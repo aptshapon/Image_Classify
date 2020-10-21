@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Configure app for Heroku deployment
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -29,7 +29,7 @@ SECRET_KEY = '3_+k$48f@qpf4+=rni_y2&76ca(%l26%rh7*&aa0(g$*&5f12t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['img-classify-django.herokuapp.com']
+ALLOWED_HOSTS = ['img-classify-django.herokuapp.com', 'localhost']
 
 
 # Application definition
