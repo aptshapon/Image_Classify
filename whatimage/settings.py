@@ -29,8 +29,7 @@ SECRET_KEY = '3_+k$48f@qpf4+=rni_y2&76ca(%l26%rh7*&aa0(g$*&5f12t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['img-classify-django.herokuapp.com', 'localhost']
-
+ALLOWED_HOSTS = ['img-classify-django.herokuapp.com']
 
 # Application definition
 
@@ -48,9 +47,9 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-CORS_ORIGIN_WHITELIST = [
-   "http://localhost:3000"
-]
+# CORS_ORIGIN_WHITELIST = [
+#    "http://localhost:3000"
+# ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
