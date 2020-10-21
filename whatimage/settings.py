@@ -27,9 +27,9 @@ django_heroku.settings(locals())
 SECRET_KEY = '3_+k$48f@qpf4+=rni_y2&76ca(%l26%rh7*&aa0(g$*&5f12t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['img-classify-django.herokuapp.com']
 
 
 # Application definition
